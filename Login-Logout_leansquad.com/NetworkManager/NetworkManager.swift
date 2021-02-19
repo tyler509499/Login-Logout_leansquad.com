@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 class NetworkManager {
-    
+//MARK: - Login Request with Parameters using Alamofire and save accessToken in storage after decoding JSON by Codable
     func loginRequest(email: String , password: String, completion: @escaping(_ JSONResponse : Any?, _ error: Error?) -> ()){
         guard let url = URL(string: Url.requestUrl) else {
             return

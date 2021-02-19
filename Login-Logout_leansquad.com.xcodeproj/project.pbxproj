@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		417B1D93A22587BEDFA062B7 /* Pods_Login_Logout_leansquad_com.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D02E893B46ED639F2570EB2 /* Pods_Login_Logout_leansquad_com.framework */; };
 		A1A8553A25DE7A0D0033BC97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8553925DE7A0D0033BC97 /* AppDelegate.swift */; };
 		A1A8553C25DE7A0D0033BC97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8553B25DE7A0D0033BC97 /* SceneDelegate.swift */; };
-		A1A8553E25DE7A0D0033BC97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8553D25DE7A0D0033BC97 /* ViewController.swift */; };
+		A1A8553E25DE7A0D0033BC97 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8553D25DE7A0D0033BC97 /* SignInViewController.swift */; };
 		A1A8554125DE7A0D0033BC97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A8553F25DE7A0D0033BC97 /* Main.storyboard */; };
 		A1A8554325DE7A110033BC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A8554225DE7A110033BC97 /* Assets.xcassets */; };
 		A1A8554625DE7A110033BC97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A8554425DE7A110033BC97 /* LaunchScreen.storyboard */; };
+		A1A8555925DEAA560033BC97 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8555825DEAA560033BC97 /* NetworkManager.swift */; };
+		A1A8555C25DEAAF50033BC97 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8555B25DEAAF50033BC97 /* Model.swift */; };
+		A1A8555F25DEAE520033BC97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8555E25DEAE510033BC97 /* Constants.swift */; };
+		A1A8556525DEB3050033BC97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8556425DEB3050033BC97 /* Extensions.swift */; };
+		A1A8556925DEC9360033BC97 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8556825DEC9350033BC97 /* SettingsViewController.swift */; };
+		A1A8556C25DEC9650033BC97 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8556B25DEC9650033BC97 /* ProjectViewController.swift */; };
+		A1A8556F25DEC9730033BC97 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8556E25DEC9730033BC97 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D02E893B46ED639F2570EB2 /* Pods_Login_Logout_leansquad_com.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_Logout_leansquad_com.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A8553625DE7A0D0033BC97 /* Login-Logout_leansquad.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login-Logout_leansquad.com.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A8553925DE7A0D0033BC97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1A8553B25DE7A0D0033BC97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1A8553D25DE7A0D0033BC97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1A8553D25DE7A0D0033BC97 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		A1A8554025DE7A0D0033BC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1A8554225DE7A110033BC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A8554525DE7A110033BC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1A8554725DE7A110033BC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A8555825DEAA560033BC97 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A1A8555B25DEAAF50033BC97 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A1A8555E25DEAE510033BC97 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1A8556425DEB3050033BC97 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A1A8556825DEC9350033BC97 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A1A8556B25DEC9650033BC97 /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		A1A8556E25DEC9730033BC97 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E02F1ECE93F0527C6564BCD8 /* Pods-Login-Logout_leansquad.com.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login-Logout_leansquad.com.debug.xcconfig"; path = "Target Support Files/Pods-Login-Logout_leansquad.com/Pods-Login-Logout_leansquad.com.debug.xcconfig"; sourceTree = "<group>"; };
+		EABD6E020C1BD1F5F6990569 /* Pods-Login-Logout_leansquad.com.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login-Logout_leansquad.com.release.xcconfig"; path = "Target Support Files/Pods-Login-Logout_leansquad.com/Pods-Login-Logout_leansquad.com.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417B1D93A22587BEDFA062B7 /* Pods_Login_Logout_leansquad_com.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FE310D89275D47E145A19B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D02E893B46ED639F2570EB2 /* Pods_Login_Logout_leansquad_com.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A173399525DEF17300367A65 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8555825DEAA560033BC97 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
 		A1A8552D25DE7A0C0033BC97 = {
 			isa = PBXGroup;
 			children = (
 				A1A8553825DE7A0D0033BC97 /* Login-Logout_leansquad.com */,
 				A1A8553725DE7A0D0033BC97 /* Products */,
+				E9F9980E65D1037157B193A4 /* Pods */,
+				2FE310D89275D47E145A19B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,39 @@
 		A1A8553825DE7A0D0033BC97 /* Login-Logout_leansquad.com */ = {
 			isa = PBXGroup;
 			children = (
-				A1A8553925DE7A0D0033BC97 /* AppDelegate.swift */,
+				A173399525DEF17300367A65 /* NetworkManager */,
+				A1A8555E25DEAE510033BC97 /* Constants.swift */,
+				A1A8555B25DEAAF50033BC97 /* Model.swift */,
+				A1A8557125DEC98C0033BC97 /* VewController */,
 				A1A8553B25DE7A0D0033BC97 /* SceneDelegate.swift */,
-				A1A8553D25DE7A0D0033BC97 /* ViewController.swift */,
+				A1A8553925DE7A0D0033BC97 /* AppDelegate.swift */,
 				A1A8553F25DE7A0D0033BC97 /* Main.storyboard */,
 				A1A8554225DE7A110033BC97 /* Assets.xcassets */,
 				A1A8554425DE7A110033BC97 /* LaunchScreen.storyboard */,
 				A1A8554725DE7A110033BC97 /* Info.plist */,
 			);
 			path = "Login-Logout_leansquad.com";
+			sourceTree = "<group>";
+		};
+		A1A8557125DEC98C0033BC97 /* VewController */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8553D25DE7A0D0033BC97 /* SignInViewController.swift */,
+				A1A8556B25DEC9650033BC97 /* ProjectViewController.swift */,
+				A1A8556E25DEC9730033BC97 /* HomeViewController.swift */,
+				A1A8556825DEC9350033BC97 /* SettingsViewController.swift */,
+				A1A8556425DEB3050033BC97 /* Extensions.swift */,
+			);
+			path = VewController;
+			sourceTree = "<group>";
+		};
+		E9F9980E65D1037157B193A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E02F1ECE93F0527C6564BCD8 /* Pods-Login-Logout_leansquad.com.debug.xcconfig */,
+				EABD6E020C1BD1F5F6990569 /* Pods-Login-Logout_leansquad.com.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1A8554A25DE7A110033BC97 /* Build configuration list for PBXNativeTarget "Login-Logout_leansquad.com" */;
 			buildPhases = (
+				2355821B197C8425DD438154 /* [CP] Check Pods Manifest.lock */,
 				A1A8553225DE7A0C0033BC97 /* Sources */,
 				A1A8553325DE7A0C0033BC97 /* Frameworks */,
 				A1A8553425DE7A0C0033BC97 /* Resources */,
+				F2F7E60A1A2F41D47D251F38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +195,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2355821B197C8425DD438154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Login-Logout_leansquad.com-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F7E60A1A2F41D47D251F38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Login-Logout_leansquad.com/Pods-Login-Logout_leansquad.com-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Login-Logout_leansquad.com/Pods-Login-Logout_leansquad.com-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Login-Logout_leansquad.com/Pods-Login-Logout_leansquad.com-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1A8553225DE7A0C0033BC97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1A8553E25DE7A0D0033BC97 /* ViewController.swift in Sources */,
+				A1A8555C25DEAAF50033BC97 /* Model.swift in Sources */,
+				A1A8555925DEAA560033BC97 /* NetworkManager.swift in Sources */,
+				A1A8556C25DEC9650033BC97 /* ProjectViewController.swift in Sources */,
+				A1A8553E25DE7A0D0033BC97 /* SignInViewController.swift in Sources */,
 				A1A8553A25DE7A0D0033BC97 /* AppDelegate.swift in Sources */,
+				A1A8556F25DEC9730033BC97 /* HomeViewController.swift in Sources */,
 				A1A8553C25DE7A0D0033BC97 /* SceneDelegate.swift in Sources */,
+				A1A8556525DEB3050033BC97 /* Extensions.swift in Sources */,
+				A1A8555F25DEAE520033BC97 /* Constants.swift in Sources */,
+				A1A8556925DEC9360033BC97 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +395,7 @@
 		};
 		A1A8554B25DE7A110033BC97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02F1ECE93F0527C6564BCD8 /* Pods-Login-Logout_leansquad.com.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +415,7 @@
 		};
 		A1A8554C25DE7A110033BC97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EABD6E020C1BD1F5F6990569 /* Pods-Login-Logout_leansquad.com.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

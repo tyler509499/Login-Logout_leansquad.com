@@ -8,7 +8,7 @@
 import UIKit
 
 class SignInViewController: UIViewController {
-
+    
     
     @IBOutlet weak var emailLabel: UILabel!
     
@@ -18,40 +18,43 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var signInButton: UIButton!
     
     let networkManager = NetworkManager()
+ 
+    var checkComplete: Bool = false
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardOnTap(#selector(dismissKeyboard))
         textAndParametersForElements()
     }
-
+//MARK: - label text, placeholder for textfield, button settings
     func textAndParametersForElements() {
         emailLabel.text = "Email"
         passwordLabel.text = "Password"
         emailTextField.placeholder = "Your email"
         passwordTextField.placeholder = "Your password"
         signInButton.layer.cornerRadius = 6
-        
-        emailTextField.text = "junior-ios-developer@mailinator.com"
-        passwordTextField.text = "s4m8AJDbVvX4H8aF"
-
     }
     
-    
+ //MARK: - SignInButton Action
     @IBAction func SignInButtonTapped(_ sender: UIButton) {
+        checkEmptyFields()
+        guard checkComplete == true else {return}
         networkManager.loginRequest(email: emailTextField.text!, password: passwordTextField.text!) {response, error in
             if error != nil {
                 self.oneButtonAlert(title: "Bad Request", message: "Try again later or check your Request function")
                 return
             }
             if response != nil {
-                print(AuthorizationModelData.accessToken!)
-                self.performSegue(withIdentifier: "goBooking", sender: nil)
+                if AuthorizationModelData.accessToken == nil {
+                        self.oneButtonAlert(title: "Wrong email or password", message: "Try again")
+                    return
+                } else {
+                self.performSegue(withIdentifier: "goTabController", sender: nil)
+                }
             }
-            
         }
     }
-    
-
 }
+
 
